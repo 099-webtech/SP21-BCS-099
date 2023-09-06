@@ -1,0 +1,49 @@
+#Name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 42px;
+text-align: center;}
+#Pos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 23px;
+
+color: grey;
+text-align: center;}
+#col-1
+{
+    width: 25%;
+    margin-left: 300px;
+    text-align: justify;
+   padding-bottom: 20px;
+    background-color: rgb(201, 198, 198);
+    margin-bottom: 30px;
+}
+#col-2
+{
+    width: 75%;
+    float: right;
+    background-color: rgb(252, 140, 140);
+}
+img
+{
+    width: 50%;
+    height: 25%;
+    margin-left: 95px;
+    border-radius: 150px;
+    margin-top: -20px;
+    
+}
+#Label
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    width: 55%;
+    margin-left: 90px;
+    padding: 5px;
+    text-align: center;
+    font-size: 23px;
+    margin-top: -10px;
+}
+h6,h5,h4,p,ul{
+    font-family:  Arial, sans-serif;
+}
