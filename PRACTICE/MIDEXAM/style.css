@@ -1,0 +1,384 @@
+/* styles.css */
+
+
+.row1 {
+    background: lightpink;
+    position: sticky;
+}
+/* styles.css */
+.row1 {
+    background: lightpink;
+    position: sticky;
+    top: 0;
+    z-index: 100; /* To layer it above other content */
+}
+
+.row2 {
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 50px; /* Adjust this value based on the height of the first row */
+    z-index: 100; /* To layer it above other content */
+}
+
+
+.notification {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.row2 {
+    background: rgb(227, 225, 225);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-left {
+    display: flex;
+    align-items: center;
+}
+
+.flag-icon {
+    margin: 0 10px;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    margin-right: 20px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+.fa-search {
+    margin-left: 5px;
+}
+/* styles.css */
+.menu-left {
+    display: flex;
+    align-items: center;
+}
+
+.menu-left span {
+    margin-right: 40px; /* Increase this value to adjust the gap between menu items */
+}
+
+.flag-icon {
+    margin-right: 40px; /* Increase this value to adjust the gap between the flag and the next item */
+}
+/* styles.css */
+.search-icon {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: none; /* Remove the border */
+    background: transparent; /* Make the background transparent */
+}
+
+input[type="text"]::placeholder {
+    color:black; /* Change the placeholder text color to white */
+}
+
+.fa-search {
+    margin-left: 10px;
+    color:black; /* Change the search icon color to white */
+}
+#imageSlider
+{
+    height: 100vh;
+    width: 1500px;
+}
+.logo
+{
+    width: 50px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sticky
+{
+    position: fixed;
+}
+/* styles.css */
+.left-section {
+    height: 100vh;
+}
+
+.left-section img {
+    width: 100%;
+    height: 113%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.left-prod img {
+    width: 100%;
+    height:450px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+
+}
+
+.right-section {
+   
+    display: flex;
+    flex-direction: column; /* Arrange images vertically */
+    justify-content: space-between; /* Create space between images */
+    margin-top: 190px;
+    
+}
+.right-image {
+    flex: 1; /* Equal distribution of space between the two images */
+}
+
+.right-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.products
+{
+    margin-bottom: 100px;
+}
+.right-prod
+{
+    margin-top: -0px;
+}
+#background
+{
+    background-color: antiquewhite;
+ 
+    margin-left: 100px;
+ 
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+#background img
+{
+  margin-right: 170px;
+}
+/* styles.css */
+.container {
+    text-align: center; /* Center the content */
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* Center the columns horizontally */
+}
+
+h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 30px; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col {
+    flex: 1; /* Equal width for all columns */
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove extra spacing beneath images */
+    margin: 0 auto; /* Center the images horizontally */
+}
+/* styles.css */
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Light-colored overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.overlay span {
+    text-align: center;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+.newsletter {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.newsletter h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.newsletter p {
+    margin: 0 0 20px;
+}
+
+.newsletter-footer {
+    text-align: center;
+    padding: 20px 0;
+}
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    
+
+    margin: 0;
+}
+
+.newsletter {
+ 
+margin-left: 50px;
+    padding: 20px;
+    margin-bottom: 30px;
+margin-right: 50px;
+}
+
+.newsletter h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.newsletter p {
+    text-align: center;
+    line-height: 1.5px;
+   
+}
+
+.subscribe-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 370px;
+    margin-right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4500; /* Orange subscribe button */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5722; /* Hover color */
+}
+/* style.css */
+.footer {
+    background-color:none;/* Dark background color */
+    color: rgb(10, 10, 10);
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact, .customer-service, .company, .follow-us {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact h4, .customer-service h4, .company h4, .follow-us h4 {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.customer-service ul, .company ul {
+    list-style: none;
+    padding: 0;
+}
+
+.customer-service li, .company li {
+    margin-bottom: 5px;
+}
+
+.customer-service a, .company a {
+    color:black;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+}
+
+/* Style social media icons as needed */
+.social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    color:black;
+}
+
+/* Add additional styling for social media icons here */
