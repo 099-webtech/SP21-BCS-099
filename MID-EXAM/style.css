@@ -212,40 +212,4 @@ height: 50px;
 .footer
 {
     background-color: rgb(29, 67, 108);
-    color: white;
-    font-size: 24px;
-}
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact, .customer-service, .company, .follow-us {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.contact h4, .customer-service h4, .company h4, .follow-us h4 {
-    font-size: 22px;
-    font-weight: bold;
-
-}
-
-.contact p {
-    margin: 10px 0;
-}
-
-.customer-service ul, .company ul {
-    list-style: none;
-    padding: 0;
-}
-
-.customer-service li, .company li {
-    margin-bottom: 5px;
-}
-
-.customer-service a, .company a {
-    color:white;
-    text-decoration: none;
 }
