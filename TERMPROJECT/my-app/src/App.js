@@ -12,6 +12,8 @@ import API from './Mycomponents/API';
 import SignUp from './Mycomponents/SignUp';
 import Login from './Mycomponents/Login';
 import { Land } from './Mycomponents/Land';
+const authMiddleware = require('./Mycomponents/authmiddleware');
+
 
 
 function App() {
